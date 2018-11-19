@@ -1,10 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
 
+.navbar-default .navbar-toggle:hover {
+	background-color: #ff4000;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ff4000;
+}
+
+
+.navbar-default {
+	padding-top: 1%;
+	padding-right: 1%;
+	background-color:#2E4053;
+	border-color: #e7e7e7;
+	color: #FFF;
+	height: 75px;
+}
+
+
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.row {
+  margin-right: 0px;
+ /* margin-left: -15px; */
+}
+
+.cv {
+	margin-top: 10%;
+}
+
+.icono {
+	margin-left: 20%;
+	padding-bottom: 10%;
+}
+
+.btn.btn-default {
+	background: transparent;
+	border-radius: 20%;
+	border: 1px solid #FFF;
+}
+
+footer.page-footer {
+	margin-top: 0px;
+	padding-top: 20px;
+
+}
+
+
 body{
   margin: 0;
   padding: 0;
   background-color: #FEFFFF;
   font-family: 'Raleway', sans-serif;
+}
+
+.photo-text {
+  font-family: 'Kumar One Outline', cursive;
+  font-family: 'VT323', monospace;
+  font-size: 17px;
 }
 
 /*MENU*/
@@ -126,25 +191,27 @@ body{
   align-items: center;
   position: relative;
   z-index: 999;
-  width: 60%;
+  width: 40%;
   min-height: 100px;
   padding: 0;
   margin: 0 auto;
 }
 
-.grand-title h4{
+.grand-title h4 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 1.2px;
+  color:  rgb(109, 133, 168);
   margin: 30px;
-  color: #354757;
+  font-family: 'VT323', monospace;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .grand-title h4:after{
   content: '';
   display: block; 
-  width: 5%;
+  width: 17%;
   height: 3px;
   margin: 25px auto;
   border: 0;
@@ -291,7 +358,7 @@ ul li p{
 .portafolio h4:after{
   content: '';
   display: block; 
-  width: 3%;
+  width: 17%;
   height: 3px;
   margin: 20px auto;
   border: 0;
@@ -341,13 +408,6 @@ ul li p{
   transform: translateY(0);
 }
 
-.portafolio-img{
-  transition: all 450ms ease;
-}
-
-.portafolio-item:hover .portafolio-img{
-  transform: rotate(-5deg) scale(1.15);
-}
 
 /*FOOTER*/
 .footer{
@@ -447,7 +507,7 @@ ul li p{
   margin: 30px 0;
   padding: 10px 50px;
   text-transform: uppercase;
-  transition: all 0.25s ease 0s;
+  transition: all 0.35s ease 10s;
 }
 
 .flex-outer li button:hover,
@@ -565,10 +625,10 @@ input{
 
 @keyframes slider{
   0%{left: 0; opacity: 0;}
-  20%{left: 0; opacity: 1;}
-  25%{left: -100%; opacity: .8;}
-  45%{left: -100%; opacity: .8;}
-  50%{left: -200%; opacity: .7;}
+  40%{left: 0; opacity: 1;}
+  40%{left: -300%; opacity: .8;}
+  40%{left: -300%; opacity: .8;}
+  40%{left: -300%; opacity: .8;}
   70%{left: -200%; opacity: .7;}
   75%{left: -300%; opacity: .6;}
   95%{left: -400%; opacity: .6;}
